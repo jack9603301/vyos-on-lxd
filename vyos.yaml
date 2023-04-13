@@ -1,9 +1,9 @@
 image:
-  name: vyos-1.4-rolling-202304120317-amd64
+  name: vyos-rolling
   distribution: VyOS
-  release: 1.4-rolling-202304120317-amd64
+  release: rolling
   description: |-
-    Vyos {{ image.release }}
+    Vyos on LXC/LXD {{ image.release }}
   architecture: x86_64
 
 source:
