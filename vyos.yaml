@@ -1,0 +1,24 @@
+image:
+  name: vyos-1.4-rolling-202304120317-amd64
+  distribution: VyOS
+  release: 1.4-rolling-202304120317-amd64
+  description: |-
+    Vyos {{ image.release }}
+  architecture: x86_64
+
+source:
+  downloader: rootfs-http
+  url: file:///home/jack/下载/vyos/vyos.squashfs
+
+packages:
+  custom_manager:
+    install:
+      cmd: emerge
+    remove:
+      cmd: emerge -c
+    clean:
+      cmd: ls . >/dev/null 2>&1
+    refresh:
+      cmd: ls . >/dev/null 2>&1
+    update:
+      cmd: ls . >/dev/null 2>&1
