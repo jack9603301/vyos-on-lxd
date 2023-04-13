@@ -8,7 +8,7 @@ image:
 
 source:
   downloader: rootfs-http
-  url: file:///home/jack/下载/vyos/vyos.squashfs
+  url: file:///go/to/path/vyos.squashfs
 
 packages:
   custom_manager:
