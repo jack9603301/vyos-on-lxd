@@ -13,12 +13,12 @@ source:
 packages:
   custom_manager:
     install:
-      cmd: emerge
+      cmd: echo "No Used" >/dev/null 2>&1
     remove:
-      cmd: emerge -c
+      cmd: echo "No Used" >/dev/null 2>&1
     clean:
-      cmd: ls . >/dev/null 2>&1
+      cmd: echo "No Used" >/dev/null 2>&1
     refresh:
-      cmd: ls . >/dev/null 2>&1
+      cmd: echo "No Used" >/dev/null 2>&1
     update:
-      cmd: ls . >/dev/null 2>&1
+      cmd: echo "No Used" >/dev/null 2>&1
