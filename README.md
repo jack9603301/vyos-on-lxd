@@ -46,3 +46,9 @@ make pack-lxc
 ```
 make pack-lxd
 ```
+
+# Notice
+
+Must run in physical NIC pass-through mode
+It is recommended to execute the container in privileged mode
+This is currently only an initial implementation!
