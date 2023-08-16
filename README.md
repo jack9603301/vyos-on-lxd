@@ -32,6 +32,7 @@ cd ../vyos-on-lxd/
 Please choose the appropriate method for your operating system to install the following dependencies:
 
 - squashfs-tools
+- [distrobuilder(LXC/LXD image build tool)](https://linuxcontainers.org/distrobuilder/introduction/)
 
 ## Execute LXC/LXD build
 
