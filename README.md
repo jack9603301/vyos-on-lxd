@@ -27,6 +27,12 @@ cp rootfs/live/filesystem.squashfs ../vyos-on-lxd/vyos.squashfs
 cd ../vyos-on-lxd/
 ```
 
+## Configure Template
+
+Check the yaml file in the project directory and replace it with the squashfs directory.
+
+If necessary, you can modify other parts of the file, but only when you are clear about the LXD image build process and its meaning.
+
 ## install dependencies
 
 Please choose the appropriate method for your operating system to install the following dependencies:
